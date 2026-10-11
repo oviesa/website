@@ -28,3 +28,11 @@
     try { localStorage.setItem('theme', isDark ? 'dark' : 'light'); } catch (e) {}
   });
 })();
+
+// Automatic Copyright Year Updater
+(function () {
+  const yearElement = document.getElementById('copyright-year');
+  if (yearElement) {
+    yearElement.textContent = new Date().getFullYear();
+  }
+})();
