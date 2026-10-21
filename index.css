@@ -235,6 +235,7 @@
     object-fit: cover;   /* Ensures the image fills the circle nicely without distortion */
     border-radius: 50%;  /* Makes the image itself circular */
     display: block;
+    object-position: 50% 20%;
   }
   
 
