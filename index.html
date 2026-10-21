@@ -1,4 +1,90 @@
-<section id="skills">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Oviesa Oboh</title>
+  <link rel="icon" type="image/png" href="images/ovi-blue-red.jpg" />
+  <link rel="stylesheet" href="index.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+</head>
+<body>
+<nav id="navbar">
+  <div class="nav-content">
+    <div class="logo">
+      <a href="#welcome-section" class="logo-text">Oviesa Oboh</a>
+    </div>
+    <ul class="nav-links">
+      <li class="about-dropdown">
+        <a href="#" class="about-dropdown-btn">About <i class="fas fa-caret-down"></i></a>
+        <ul class="dropdown-content">
+          <li><a href="#">Who am I?</a></li>
+          <li><a href="#">What I Can Do</a></li>
+        </ul>
+      </li>
+      <li class="about-dropdown">
+        <a href="#" class="about-dropdown-btn">Projects <i class="fas fa-caret-down"></i></a>
+        <ul class="dropdown-content">
+          <li><a href="projects.html">Data Engineering & Analytics</a></li>
+          <li><span class="disabled">Hardware <span class="coming-soon">(Coming Soon)</span></span></li>
+        </ul>
+      </li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+  <section id="welcome-section">
+    <div class="welcome-content">
+      <h1>Hi, I'm Ovi</h1>
+      <p>And I like to make stuff.</p>
+      <div class="profile-box">
+        <img src="images/portfolio_pic.jpg" alt="Oviesa Oboh" class="dp">
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 class="projects-header">What I've Built</h2>
+    <div class="projects-grid">
+      <a href="https://oviesao.github.io/Country-Capital-Quiz/" target="_blank" class="project-tile">
+        <img src="images/capital-quiz-app.png" alt="Project 1">
+        <p class="project-title">Countries Capital Quiz</p>
+      </a>
+      <a href="https://oviesao.github.io/Weather-App/" target="_blank" class="project-tile">
+        <img src="images/weather_app.png" alt="Project 2">
+        <p class="project-title">RealTime Weather</p>
+      </a>
+      <a href="https://github.com/oviesao/r-data-viz-project" target="_blank" class="project-tile">
+        <img src="images/emissions_plot.png" alt="Project 3">
+        <p class="project-title">Emissions Data Storytelling with R</p>
+      </a>
+      <a href="https://github.com/oviesao/covid-19-data-tracker" target="_blank" class="project-tile">
+        <img src="images/top_10_confirmed.png" alt="Project 4">
+        <p class="project-title">COVID-19 Data Tracker</p>
+      </a>
+      <a href="https://oviesao.github.io/shopping-at-target-clone/" target="_blank" class="project-tile">
+        <img src="images/target-clone.png" alt="Project 5">
+        <p class="project-title">Target: Expect More. Pay Less</p>
+      </a>
+      <a href="https://example.com/project6" target="_blank" class="project-tile">
+        <img src="images/under_construction.png" alt="Project 6">
+        <p class="project-title">Blog</p>
+      </a>
+      <a href="https://example.com/project7" target="_blank" class="project-tile">
+        <img src="images/under_construction.png" alt="Project 7">
+        <p class="project-title">Expense Tracker</p>
+      </a>
+      <a href="https://example.com/project8" target="_blank" class="project-tile">
+        <img src="images/under_construction.png" alt="Project 8">
+        <p class="project-title">Web Scraper</p>
+      </a>
+    </div>
+    <a href="projects.html" class="show-all">Show all <i class="fas fa-chevron-right"></i></a>
+  </section>
+
+  <section id="skills">
     <div class="skills-container">
       <h2 class="skills-header">My Skills</h2>
       
@@ -27,7 +113,7 @@
           <li><span class="skill-icon"><i class="fas fa-spider"></i></span> <span class="skill-name">Web Scraping</span></li>
         </ul>
       </div>
-
+      
       <div class="skill-category">
         <h3><i class="fas fa-network-wired"></i> Network Engineering & Infrastructure (CCNA)</h3>
         <ul class="skills-list">
@@ -39,7 +125,7 @@
           <li><span class="skill-icon"><i class="fas fa-terminal"></i></span> <span class="skill-name">Cisco IOS</span></li>
         </ul>
       </div>
-      
+
       <div class="skill-category">
         <h3><i class="fas fa-brain"></i> Applied AI & Automation</h3>
         <ul class="skills-list">
@@ -50,6 +136,62 @@
           <li><span class="skill-icon"><i class="fas fa-network-wired"></i></span> <span class="skill-name">Distributed Systems</span></li>
         </ul>
       </div>
-
     </div>
   </section>
+
+  <section id="contact">
+    <div class="contact-header">
+      <h2>Contact Me</h2>
+      <p>Got a project or idea? Let's bring it to life.</p>
+    </div>
+    <div class="contact-form-container">
+      <form action="mailto:oviesao@icloud.com" method="post" enctype="text/plain">
+        <div class="form-group">
+          <input type="text" id="name" name="name" placeholder="Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" name="email" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <textarea id="message" name="message" placeholder="Message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="copyright">
+        <p>Oviesa Oboh &copy; <span id="copyright-year"></span></p>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/oviesa-oboh-704082296/" target="_blank" class="social-link">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a id="profile-link" href="https://github.com/oviesao" target="_blank" class="social-link">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://codepen.io/oviesao" target="_blank" class="social-link">
+            <i class="fab fa-codepen"></i>
+        </a>
+        <a href="https://instagram.com/oviesa.o" target="_blank" class="social-link">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://t.me/oviesao/" target="_blank" class="social-link">
+          <i class="fab fa-telegram"></i>
+        </a>
+        <a href="https://upwork.com/oviesao/" target="_blank" class="social-link">
+          <i class="fa-brands fa-upwork"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">
+    <i class="fas fa-moon" aria-hidden="true"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
