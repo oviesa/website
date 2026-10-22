@@ -11,7 +11,7 @@ Welcome to my corner of GitHub. I’m a software developer and IT professional b
 * **Languages & Core:** JavaScript, TypeScript, Python, PHP, SQL (PostgreSQL, MySQL), R
 * **Frontend & Backend:** React, Redux, Node.js, HTML5, CSS3/SCSS
 * **Infrastructure & Cloud:** AWS, Linux, Apache, Nginx, Docker, VMWare
-* **Network Engineering:** Cisco IOS, CCNA Routing & Switching, Cisco Packet Tracer
+* **Network Engineering:** Cisco IOS, CCNA Routing & Switching, Cisco Packet Tracer, PuTTY
 * **Data & Analytics:** Relational Database Design, ETL Pipelines, PowerBI, Tableau
 
 ---
