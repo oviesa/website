@@ -6,7 +6,7 @@ Welcome to my GitHub profile and personal portfolio source repository. I'm a sof
 
 ---
 
-## 🛠️ Tech Stack & Skills
+## Tech Stack & Skills
 
 * **Languages:** JavaScript, TypeScript, Python, PHP, SQL (PostgreSQL, MySQL), R
 * **Frontend & Backend:** React, Redux, Node.js, HTML5, CSS3/SCSS
@@ -16,7 +16,7 @@ Welcome to my GitHub profile and personal portfolio source repository. I'm a sof
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 * **[Global Emissions Analysis in R](https://github.com/oviesa/global-emissions-analysis-R)** — Data analysis and visualization pipeline examining worldwide carbon metrics.
 * **[B2B Lead Analytics Pipeline](https://github.com/oviesa/b2b-lead-analytics-pipeline)** — Automated data ingestion and query optimization tool for enterprise lead tracking.
@@ -27,4 +27,4 @@ Welcome to my GitHub profile and personal portfolio source repository. I'm a sof
 ## 📬 Connect With Me
 
 * **Website:** [oviesa.github.io/website](https://oviesa.github.io/website/)
-* **GitHub:** [@oviesa](https://github.com/oviesa)
+* **LinkedIn:** [Oviesa Oboh](https://linkedin.com/in/oviesa)
