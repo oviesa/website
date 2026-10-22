@@ -1,18 +1,18 @@
 # Hi there, I'm Oviesa 👋
 
-Welcome to my GitHub profile and personal portfolio source repository. I'm a software developer and IT professional based in Maryland, focusing on full-stack web development, data engineering, and scalable infrastructure.
+Welcome to my corner of GitHub. I’m a software developer and IT professional based in Maryland who loves building clean, functional applications and setting up the infrastructure that powers them.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-oviesa.github.io-blue?style=flat-square&logo=google-chrome)](https://oviesa.github.io/website/)
 
 ---
 
-## Tech Stack & Skills
+## What I Work With 👇
 
-* **Languages:** JavaScript, TypeScript, Python, PHP, SQL (PostgreSQL, MySQL), R
+* **Languages & Core:** JavaScript, TypeScript, Python, PHP, SQL (PostgreSQL, MySQL), R
 * **Frontend & Backend:** React, Redux, Node.js, HTML5, CSS3/SCSS
-* **Infrastructure & DevOps:** Linux, AWS, Cisco IOS (CCNA Routing & Switching)
-* **Data & Analytics:** Relational Database Design, Data Pipelines, ETL Workflows
-* **Technologies:** Apache, Nginx, PowerBI, Tableau, PuTTY, Cisco Packet Tracer, Juptyer Notebooks, VMWare, Docker
+* **Infrastructure & Cloud:** AWS, Linux, Apache, Nginx, Docker, VMWare
+* **Network Engineering:** Cisco IOS, CCNA Routing & Switching, Cisco Packet Tracer
+* **Data & Analytics:** Relational Database Design, ETL Pipelines, PowerBI, Tableau
 
 ---
 
@@ -24,7 +24,7 @@ Welcome to my GitHub profile and personal portfolio source repository. I'm a sof
 
 ---
 
-## 📬 Connect With Me
+## Connect With Me
 
 * **Website:** [oviesa.github.io/website](https://oviesa.github.io/website/)
 * **LinkedIn:** [Oviesa Oboh](https://linkedin.com/in/oviesa)
